@@ -123,6 +123,7 @@ h3 {
 }
 
 #contact-mobile{
+  padding:128px 0;
   display:flex;
   flex-wrap: wrap;
   text-align: center;
