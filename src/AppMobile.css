@@ -71,8 +71,8 @@ h3 {
 .social-icons-mobile li a {
   display: inline-block;
   color: #30BFBA;
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .container-mobile {
