@@ -23,7 +23,7 @@ h3 {
 
 .main-cover-mobile {
   background-color: transparent;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   position: relative;
   display:flex;
