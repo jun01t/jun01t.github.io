@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.7;
+  color: #4d4d4d;
+  background: #fff;
+}
+
+h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.main-cover-mobile {
+  background-color: transparent;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  display:flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+}
+
+.main-cover-mobile .overlay-mobile {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(48, 191, 186, 0.9);
+}
+
+.profile-thumb-mobile {
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.social-icons-mobile {
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons-mobile li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.social-icons-mobile li a {
+  display: inline-block;
+  color: #30BFBA;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.container-mobile {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.display-table-mobile {
+  width: 100%;
+  height: 100vh;
+  display: table;
+}
+
+.display-table-contents-mobile {
+  padding: 128px 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.title-text-mobile {
+  color: white;
+  position: relative;
+}
+
+.icon-link-mobile {
+  position: relative;
+}
+
+#skills-mobile{
+  padding:auto;
+  clear:both;
+}
+
+.heading-mobile{
+  margin-bottom:auto;
+  text-align:center;
+}
+
+.skills-container-mobile{
+  display:flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#contact-mobile{
+  padding:auto;
+  clear: both;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.contact-mobile{
+  background:#30BFBA;
+}
+
+.contact-contents-mobile{
+  color:white;
+  text-align: center;
+}
+
+.description-mobile{
+  font-size:16px;
+}
+
+.btn-mobile{
+  font-family: "Space Mono",Arial,serif;
+  font-size:16px;
+  border: 16px;
+  border: none !important;
+  border-radius:30px;
+  padding: auto;
+  text-decoration: none;
+}
+
+#contact-mobile .btn-mobile{
+  height:54px;
+  background:#fff;
+  color:#30BFBA;
+}
+
+.skill-item-mobile{
+  margin:0 48px;
+}
