@@ -5,6 +5,11 @@ import { skillReducer,initialState,actionTypes } from "../reducers/skillReducer"
 import { requestStates } from "../constants"
 
 export const Skills = () => {
+
+    const sortedLanguageList = () => (
+        state.languageList.sort((firstLang,nextLang) => nextLang.count - firstLang.count)
+    )
+
     const [state,dispatch] = useReducer(skillReducer,initialState)
     
     const converseCountToPercentage = (count) => {
@@ -48,7 +53,7 @@ export const Skills = () => {
                     )
                     }
                     {state.requestState === requestStates.success && (
-                        state.languageList.map((item,index) => (
+                        sortedLanguageList().map((item,index) => (
                             <div className="skill-item" key={index}>
                             <p className="description"><strong>{item.language}</strong></p>
                         <Circle 
