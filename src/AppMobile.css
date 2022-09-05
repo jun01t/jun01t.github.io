@@ -108,6 +108,8 @@ h3 {
 #skills-mobile{
   padding:auto;
   clear:both;
+  display:flex;
+  flex-wrap: wrap;
 }
 
 .heading-mobile{
@@ -116,16 +118,14 @@ h3 {
 }
 
 .skills-container-mobile{
-  display:flex;
   flex-wrap: wrap;
   text-align: center;
 }
 
 #contact-mobile{
-  padding:auto;
-  clear: both;
   display:flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .contact-mobile{
