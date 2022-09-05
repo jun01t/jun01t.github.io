@@ -13,12 +13,12 @@ import {ContactMobile} from "./components/ContactMobile"
 function App({Component,PageProps}) {
   return (
     <>
-    <MediaQuery query="(max-width:767px)">
+    <MediaQuery query="(max-width:912px)">
     <HeaderMobile/>
     <SkillsMobile/>
     <ContactMobile/>
     </MediaQuery>
-    <MediaQuery query="(min-width:768px)">
+    <MediaQuery query="(min-width:913px)">
     <Header/>
     <Skills/>
     <Contact/>
