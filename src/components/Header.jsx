@@ -13,7 +13,7 @@ export const Header = () => {
                     {}
                     <div className="profile-thumb" style={{backgroundImage:`url(${ProfileImage})`}}></div>
                     <h1 className="title-text">つぶやきねこ</h1>
-                    <h3 className="title-text">バックエンドエンジニャー</h3>
+                    <h3 className="title-text">フルスタックエンジニャー</h3>
                     <ul className="social-icons">
                         <li className="icon-link">
                         {}
