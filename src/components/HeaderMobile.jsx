@@ -1,4 +1,4 @@
-import CoverImage from "../images/cover-image.png"
+import CoverImage from "../images/cover-image.jpg"
 import ProfileImage from "../images/profile-image.png"
 import {FaTwitter, FaGithub} from "react-icons/fa"
 
@@ -12,12 +12,12 @@ export const HeaderMobile = () => {
                 <div className="display-table-contents-mobile">
                     {}
                     <div className="profile-thumb-mobile" style={{backgroundImage:`url(${ProfileImage})`}}></div>
-                    <h1 className="title-text-mobile">つぶやきねこ</h1>
-                    <h3 className="title-text-mobile">バックエンドエンジニャー</h3>
+                    <h1 className="title-text-mobile">Junichi Tomida</h1>
+                    <h3 className="title-text-mobile">Programmer</h3>
                     <ul className="social-icons-mobile">
                         <li className="icon-link-mobile">
                         {}
-                        <a href="https://twitter.com/goldenCat1990">
+                        <a href="https://twitter.com/JNHZaOtUGZ9mZXF">
                             <FaTwitter color="white" size="2rem"/>
                         </a>
                         </li>

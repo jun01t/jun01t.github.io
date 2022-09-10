@@ -1,4 +1,4 @@
-import CoverImage from "../images/cover-image.png"
+import CoverImage from "../images/cover-image.jpg"
 import ProfileImage from "../images/profile-image.png"
 import {FaTwitter, FaGithub} from "react-icons/fa"
 
