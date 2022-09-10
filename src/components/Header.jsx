@@ -12,12 +12,12 @@ export const Header = () => {
                 <div className="display-table-contents">
                     {}
                     <div className="profile-thumb" style={{backgroundImage:`url(${ProfileImage})`}}></div>
-                    <h1 className="title-text">つぶやきねこ</h1>
-                    <h3 className="title-text">フルスタックエンジニャー</h3>
+                    <h1 className="title-text">Junichi Tomida</h1>
+                    <h3 className="title-text">フルスタックエンジニア</h3>
                     <ul className="social-icons">
                         <li className="icon-link">
                         {}
-                        <a href="https://twitter.com/goldenCat1990">
+                        <a href="https://twitter.com/JNHZaOtUGZ9mZXF">
                             <FaTwitter color="white" size="2rem"/>
                         </a>
                         </li>
