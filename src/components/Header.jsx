@@ -1,6 +1,6 @@
 import CoverImage from "../images/cover-image.jpg"
 import ProfileImage from "../images/profile-image.png"
-import {FaTwitter, FaGithub} from "react-icons/fa"
+import {FaTwitter, FaGithub,FaSoundcloud} from "react-icons/fa"
 
 export const Header = () => {
     return (
@@ -24,6 +24,12 @@ export const Header = () => {
                         <li className="icon-link">
                             <a href="https://github.com/jun01t">
                                 <FaGithub color="white" size="2rem"/>
+                            </a>
+                        {}
+                        </li>
+                        <li className="icon-link">
+                            <a href="https://soundcloud.com/junichi-tomida">
+                                <FaSoundcloud color="white" size="2rem"/>
                             </a>
                         {}
                         </li>
