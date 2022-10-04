@@ -17,7 +17,7 @@ export const Header = () => {
                     <ul className="social-icons">
                         <li className="icon-link">
                         {}
-                        <a href="https://twitter.com/JNHZaOtUGZ9mZXF">
+                        <a href="https://twitter.com/jun01t">
                             <FaTwitter color="white" size="2rem"/>
                         </a>
                         </li>
