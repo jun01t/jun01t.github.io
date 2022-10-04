@@ -17,7 +17,7 @@ export const HeaderMobile = () => {
                     <ul className="social-icons-mobile">
                         <li className="icon-link-mobile">
                         {}
-                        <a href="https://twitter.com/JNHZaOtUGZ9mZXF">
+                        <a href="https://twitter.com/jun01t">
                             <FaTwitter color="white" size="2rem"/>
                         </a>
                         </li>
